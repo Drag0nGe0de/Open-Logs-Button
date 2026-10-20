@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "open-logs-button",
+  "version": "${version}",
+  "name": "Open Logs Button",
+  "description": "Adds an Open Logs Folder button to the title screen and the pause menu that opens the logs folder in your system file browser.",
+  "authors": [
+    "DragonGeode"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Drag0nGe0de/OpenLogsButton",
+    "sources": "https://github.com/Drag0nGe0de/OpenLogsButton"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/open-logs-button/icon.png",
+  "environment": "client",
+  "mixins": [
+    "open-logs-button.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
